@@ -1,0 +1,31 @@
+ .btnmodalSEO {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: xx-small;
+  height: 20px;
+  margin: 0;
+  border: 0;
+}
+
+.modal-body.modal-body-pdf {
+  width: 900px;
+  margin-left: -150px;
+  height:800px;
+}
+
+.modal-body-pdf object embed {
+  height: 100%;
+}
+
+.modalcontentSEO {
+  width: 120%;
+  top: -80px;
+}
+
+
+
+
+#modalePDFSEO {
+  background-color: lemonchiffon;
+
+}
