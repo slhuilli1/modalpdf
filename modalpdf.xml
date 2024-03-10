@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="Content">
+	<name>Modale PDF</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Février 2024</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	
+	<description><![CDATA[Ce plugin permet d'afficher un lien d'ouverture en fenetre modale d'un fichier PDF sur une page<br/>Utilisation<br/>Il faut intégrer la modale de la façon suivante : <div style="font-weight:bold;color:red;font-family:courier;">{modalpdf}__DOCUMENTS__/Seébastien.pdf{/modalpdf}</br></div> <br>Ce plugin s'appluie sur Bootsrap, bibliothèque intégrée à Joomla 3.9]]></description>
+	<files>
+		<filename plugin="modalpdf">modalpdf.php</filename>
+		<filename>modalpdf.xml</filename>			
+	</files>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">			
+			<field name="icone" type="text" default="" label="Icone" description="Icone UTF-8 encodée HTML numérique sans # et ; - Ex : 128269" size="10" />
+			<field name="largeur" type="integer" default="900" label="Largeur" description="Largeur de la fenêtre" first="50" last="20000" step="50" />
+		</fieldset>	
+	</fields>
+	</config>
+</extension>
